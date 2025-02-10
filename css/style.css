@@ -1,0 +1,26 @@
+body{font-family: "Poppins",
+  sans-serif;}
+a{text-decoration: none;}
+
+ul{list-style: none;}
+
+.container{display: flex;
+max-width: 1106px;
+padding: 0 15px;
+margin: 0 auto;}
+
+/* HEADER */
+
+.box-logo{display: flex;
+  align-items: center;}
+
+.list-nav{display: flex;}
+
+.list-sign{display: flex;
+margin-left: auto;
+}
+
+.box-header{align-items: center;}
+
+
+

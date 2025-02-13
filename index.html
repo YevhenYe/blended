@@ -34,10 +34,12 @@
         </div>
         <nav>
           <ul class="list-nav">
-            <li class="item-nav"><a class="link-nav active" href="./index.html">Product</a></li>
-            <li class="item-nav"><a class="link-nav" href="./customers.html">Customers</a></li>
-            <li class="item-nav"><a class="link-nav" href="./pricing.html">Pricing</a></li>
-            <li class="item-nav"><a class="link-nav" href="">Resources</a></li>
+            <li class="item-nav">
+              <a class="link link-nav active" href="./index.html">Product</a>
+            </li>
+            <li class="item-nav"><a class="link link-nav" href="./customers.html">Customers</a></li>
+            <li class="item-nav"><a class="link link-nav" href="./pricing.html">Pricing</a></li>
+            <li class="item-nav"><a class="link link-nav" href="">Resources</a></li>
           </ul>
         </nav>
         <ul class="list-sign">
@@ -252,154 +254,203 @@
           <p class="text-price">We offer competitive price</p>
           <ul class="list-price">
             <li class="item-price">
-              <h3>Free</h3>
-              <p>Brief price description</p>
-              <h4>0</h4>
-              <p>$</p>
-              <p>Per / month</p>
-              <ul>
+              <h3 class="title-card">Free</h3>
+              <p class="text-card">Brief price description</p>
+              <div class="box-card">
+                <h4 class="number">0</h4>
+                <div>
+                  <p class="dollar">$</p>
+                  <p class="text-month">Per / month</p>
+                </div>
+              </div>
+              <ul class="list-card">
                 <li>
-                  <h5>Only 2 Operators</h5>
+                  <h5 class="title-card-item">Only 2 Operators</h5>
                 </li>
                 <li>
-                  <h5>Notifications</h5>
+                  <h5 class="title-card-item">Notifications</h5>
                 </li>
                 <li>
-                  <h5>Landing Pages</h5>
+                  <h5 class="title-card-item">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="btn-card btn" type="button">Order Now</button>
+            </li>
+            <li class="item-price item-second">
+              <h3 class="title-card">Standard</h3>
+              <p class="text-card">Brief price description</p>
+              <div class="box-card">
+                <h4 class="number number-2">5</h4>
+                <div>
+                  <p class="dollar dollar-2">$</p>
+                  <p class="text-month text-month-2">Per / month</p>
+                </div>
+              </div>
+              <ul class="list-card">
+                <li>
+                  <h5 class="title-card-item text-white">5+ Operators</h5>
+                </li>
+                <li>
+                  <h5 class="title-card-item text-white">Notifications</h5>
+                </li>
+                <li>
+                  <h5 class="title-card-item text-white">Landing Pages</h5>
+                </li>
+              </ul>
+              <button class="btn-card btn btn-second" type="button">Order Now</button>
             </li>
             <li class="item-price">
-              <h3>Standard</h3>
-              <p>Brief price description</p>
-              <h4>5</h4>
-              <p>$</p>
-              <p>Per / month</p>
-              <ul>
+              <h3 class="title-card">Premium</h3>
+              <p class="text-card">Brief price description</p>
+              <div class="box-card">
+                <h4 class="number">10</h4>
+                <div>
+                  <p class="dollar">$</p>
+                  <p class="text-month">Per / month</p>
+                </div>
+              </div>
+              <ul class="list-card">
                 <li>
-                  <h5>5+ Operators</h5>
+                  <h5 class="title-card-item">10+ Operators</h5>
                 </li>
                 <li>
-                  <h5>Notifications</h5>
+                  <h5 class="title-card-item">Notifications</h5>
                 </li>
                 <li>
-                  <h5>Landing Pages</h5>
-                </li>
-              </ul>
-              <button type="button">Order Now</button>
-            </li>
-            <li class="item-price">
-              <h3>Premium</h3>
-              <p>Brief price description</p>
-              <h4>10</h4>
-              <p>$</p>
-              <p>Per / month</p>
-              <ul>
-                <li>
-                  <h5>10+ Operators</h5>
-                </li>
-                <li>
-                  <h5>Notifications</h5>
-                </li>
-                <li>
-                  <h5>Landing Pages</h5>
+                  <h5 class="title-card-item">Landing Pages</h5>
                 </li>
               </ul>
-              <button type="button">Order Now</button>
+              <button class="btn-card btn" type="button">Order Now</button>
             </li>
           </ul>
         </div>
       </section>
-      <section>
+      <section class="section-clients">
         <div class="container">
-          <h2>What Clients Say</h2>
-          <p>
-            Problems trying to resolve the conflict between the two major realms of Classical
-            physics: Newtonian mechanics
+          <h2 class="title-clients">What Clients Say</h2>
+          <p class="text-clients">
+            Problems trying to resolve the conflict between<br />
+            the two major realms of Classical physics: Newtonian mechanics
           </p>
-          <ul>
-            <li>
-              <p>
+          <ul class="list-clients">
+            <li class="item-clients">
+              <p class="text-clients-product">
                 Product helps you see how many more days you need to work to reach your financial
                 goal.
               </p>
               <ul>
-                <li>
-                  <img width="50" height="50" src="./image/wahid-ari.jpg" alt="avatar wahid-ari " />
-                  <h3>Wahid Ari</h3>
-                  <p>Designer</p>
+                <li class="item-disigner">
+                  <img
+                    class="img-disigner"
+                    width="50"
+                    height="50"
+                    src="./image/wahid-ari.jpg"
+                    alt="avatar wahid-ari "
+                  />
+                  <div>
+                    <h3 class="title-disigner">Wahid Ari</h3>
+                    <p class="text-disigner">Designer</p>
+                  </div>
                 </li>
               </ul>
             </li>
-            <li>
-              <p>
+            <li class="item-clients">
+              <p class="text-clients-product">
                 Product helps you see how many more days you need to work to reach your financial
                 goal.
               </p>
               <ul>
-                <li>
+                <li class="item-disigner">
                   <img
+                    class="img-disigner"
                     width="50"
                     height="50"
                     src="./image/wahid-ari2.jpg"
                     alt="avatar wahid-ari2"
                   />
-                  <h3>Wahid Ari</h3>
-                  <p>Designer</p>
+                  <div>
+                    <h3 class="title-disigner">Wahid Ari</h3>
+                    <p class="text-disigner">Designer</p>
+                  </div>
                 </li>
               </ul>
             </li>
-            <li>
-              <p>
+            <li class="item-clients">
+              <p class="text-clients-product">
                 Product helps you see how many more days you need to work to reach your financial
                 goal.
               </p>
               <ul>
-                <li>
+                <li class="item-disigner">
                   <img
+                    class="img-disigner"
                     width="50"
                     height="50"
                     src="./image/wahid-ari3.jpg"
                     alt="avatar wahid-ari3"
                   />
-                  <h3>Wahid Ari</h3>
-                  <p>Designer</p>
+                  <div>
+                    <h3 class="title-disigner">Wahid Ari</h3>
+                    <p class="text-disigner">Designer</p>
+                  </div>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <h2>Join 100 Compannies who boost their business with Product</h2>
+      <section class="section-compannies">
+        <div class="container box-compannies">
+          <div class="box-join">
+            <h2 class="title-compannies">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button class="btn btn-compannies" type="button">Get This</button>
+          </div>
           <img
             src="./image/screen.png"
             alt="Abstract data visualization with a colorful circular chart and a graph in a modern UI design."
-          /><button type="button">Get This</button>
+          />
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container"><img width="39" height="36" src="./image/logo.png" alt="logo of company" />
-      <a href=".//index.html">Product</a>
-      <h3>Resource</h3>
-      <ul>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">FAQ</a></li>
-      </ul>
-      <h3>Legal Stuff</h3>
-      <ul>
-        <li><a href="">Disclaimer</a></li>
-        <li><a href="">Financing</a></li>
-        <li><a href="">Privacy Policy</a></li>
-      </ul>
-      <p>knowing you're always on the best energy deal.</p>
-      <button type="button">Sign up Now</button>
-      <p>Made With Love By Figmaland All Right Reserved</p></div>
+    <footer class="footer">
+      <div class="container">
+        <div class="box-footer">
+          <div class="box-logo-footer">
+            <img
+              class="img-logo"
+              width="39"
+              height="36"
+              src="./image/logo.png"
+              alt="logo of company"
+            />
+            <a class="logo" href=".//index.html">Product</a>
+          </div>
+          <div>
+            <h3>Resource</h3>
+            <ul>
+              <li><a class="link" href="">About Us</a></li>
+              <li><a class="link" href="">Blog</a></li>
+              <li><a class="link" href="">Contact</a></li>
+              <li><a class="link" href="">FAQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Legal Stuff</h3>
+            <ul>
+              <li><a class="link" href="">Disclaimer</a></li>
+              <li><a class="link" href="">Financing</a></li>
+              <li><a class="link" href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div>
+            <p>knowing you're always on the best energy deal.</p>
+            <button type="button">Sign up Now</button>
+          </div>
+        </div>
+        <p>Made With Love By Figmaland All Right Reserved</p>
+      </div>
     </footer>
   </body>
 </html>

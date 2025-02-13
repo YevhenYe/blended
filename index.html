@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -192,35 +192,63 @@
         </div>
       </section>
       <section class="section-process">
-        <div class="container">
+        <div class="container box-2">
           <h2 class="title-main title-process">Quick & Easy Process</h2>
           <p class="text text-process">
             Do you require some help for your project: Conception workshop, prototyping, marketing
             strategy, landing page, Ux/UI?
           </p>
           <ul class="list-process">
-            <div>
-              <li class="item-process">
-                <img src="./image/avatar-one.jpg" alt="Avatar of a young woman" />
-                <p class="text-can">I can take care of your pitch</p>
-              </li>
-              <li class="item-process">
-                <img src="./image/avatar-two.jpg" alt="Avatar of a old woman" />
-                <p class="text-can">I can prototype your app</p>
-              </li>
+            <div class="box">
+              <div>
+                <li class="item-process">
+                  <div class="box-1">
+                    <img
+                      class="m-right"
+                      src="./image/avatar-one.jpg"
+                      alt="Avatar of a young woman"
+                    />
+                    <p class="text-can">I can take care of your pitch</p>
+                  </div>
+                </li>
+              </div>
+              <div>
+                <li class="item-process">
+                  <div class="box-1 reverse">
+                    <img class="m-left" src="./image/avatar-two.jpg" alt="Avatar of a old woman" />
+                    <p class="text-can">I can prototype your app</p>
+                  </div>
+                </li>
+              </div>
             </div>
-            <div>
-              <li class="item-process">
-                <img src="./image/avatar-tree.jpg" alt="Avatar of a young man with a camera" />
-                <p class="text-can">I can take care of your pitch</p>
-              </li>
-              <li class="item-process">
-                <img src="./image/avatar-four.jpg" alt="Avatar of an elderly smiling man" />
-                <p class="text-can">I can help marketing strategy</p>
-              </li>
+            <div class="box">
+              <div>
+                <li class="item-process">
+                  <div class="box-1 reverse">
+                    <img
+                      class="m-left"
+                      src="./image/avatar-tree.jpg"
+                      alt="Avatar of a young man with a camera"
+                    />
+                    <p class="text-can">I can take care of your pitch</p>
+                  </div>
+                </li>
+              </div>
+              <div>
+                <li class="item-process">
+                  <div class="box-1">
+                    <img
+                      class="m-right"
+                      src="./image/avatar-four.jpg"
+                      alt="Avatar of an elderly smiling man"
+                    />
+                    <p class="text-can">I can help marketing strategy</p>
+                  </div>
+                </li>
+              </div>
             </div>
           </ul>
-          <button class="btn-process" type="button">Contact our expert</button>
+          <button class="btn-process btn" type="button">Contact our expert</button>
         </div>
       </section>
       <section class="section-strategies">
@@ -425,31 +453,32 @@
               src="./image/logo.png"
               alt="logo of company"
             />
-            <a class="logo" href=".//index.html">Product</a>
+            <a class="logo logo-footer" href=".//index.html">Product</a>
           </div>
-          <div>
-            <h3>Resource</h3>
+          <div class="box-resource">
+            <h3 class="title-footer">Resource</h3>
             <ul>
-              <li><a class="link" href="">About Us</a></li>
-              <li><a class="link" href="">Blog</a></li>
-              <li><a class="link" href="">Contact</a></li>
-              <li><a class="link" href="">FAQ</a></li>
+              <li><a class="link link-text" href="">About Us</a></li>
+              <li><a class="link link-text" href="">Blog</a></li>
+              <li><a class="link link-text" href="">Contact</a></li>
+              <li><a class="link link-text" href="">FAQ</a></li>
             </ul>
           </div>
-          <div>
-            <h3>Legal Stuff</h3>
+          <div class="box-legal-stuff">
+            <h3 class="title-footer">Legal Stuff</h3>
             <ul>
-              <li><a class="link" href="">Disclaimer</a></li>
-              <li><a class="link" href="">Financing</a></li>
-              <li><a class="link" href="">Privacy Policy</a></li>
+              <li><a class="link link-text" href="">Disclaimer</a></li>
+              <li><a class="link link-text" href="">Financing</a></li>
+              <li><a class="link link-text" href="">Privacy Policy</a></li>
             </ul>
           </div>
-          <div>
-            <p>knowing you're always on the best energy deal.</p>
-            <button type="button">Sign up Now</button>
+          <div class="box-knowing">
+            <p class="title-footer text-knowing">knowing you're always on the best energy deal.</p>
+            <p class="text-form">Enter your phone number</p>
+            <button class="btn-footer btn" type="button">Sign up Now</button>
           </div>
         </div>
-        <p>Made With Love By Figmaland All Right Reserved</p>
+        <p class="text-footer">Made With Love By Figmaland All Right Reserved</p>
       </div>
     </footer>
   </body>

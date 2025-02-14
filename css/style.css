@@ -540,3 +540,50 @@ margin-top: 25px;}
 text-align: center;
 padding-bottom: 40px;
 margin-top: 10px;}
+
+
+
+
+/* CUSTOPERS PAGE */
+
+
+.section-our-clients{padding-top: 100px;
+padding-bottom: 141px;}
+
+.our-clients{font-size: 40px;
+text-align: center;
+margin-bottom: 50px;}
+
+.list-our-clients{display: flex;
+gap: 64px;
+justify-content: center;}
+
+/* .item-our-clients{width: calc((100% - 192px) / 4);} */
+
+
+/* section Why Choose Product? */
+
+.box-why{background: #f5f5f5;}
+
+.title-why{padding-top: 24px;
+margin-bottom: 50px;}
+
+.title-customers{font-size: 34px;
+text-align: center;}
+
+.list-why{display: flex;
+gap: 30px;
+align-items: center;}
+
+.item-why{width: calc((100% - 60px) / 3);}
+
+.title-why-small{font-size: 24px;
+line-height: 1.4;
+text-align: center;
+margin-bottom: 16px;}
+
+.text-why{
+line-height: 1.7;
+letter-spacing: 0.01em;
+text-align: center;}
+

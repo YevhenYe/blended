@@ -4,7 +4,7 @@ color: var(--text-color);}
 
 a{text-decoration: none;}
 
-ul{list-style: none;
+ul,ol{list-style: none;
 margin: 0;
 padding-left: 0;}
 
@@ -17,8 +17,8 @@ img{display: block;
 max-width: 100%;}
 
 .container{
-max-width: 1115px;
-padding: 0 15px;
+max-width: 1140px;
+padding: 0 20px;
 margin: 0 auto;
 width: 100%;}
 
@@ -560,7 +560,7 @@ margin-bottom: 50px;}
 gap: 64px;
 justify-content: center;}
 
-/* .item-our-clients{width: calc((100% - 192px) / 4);} */
+.item-our-clients{width: calc((100% - 192px) / 4);}
 
 
 /* section Why Choose Product? */

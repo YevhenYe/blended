@@ -507,15 +507,20 @@ border: none;}
 /* footer */
 
 
-.footer{margin-top: 100px;}
+.footer {margin-top: 100px;}
 
-.box-footer{display: flex;
-justify-content: space-around;}
+.box-footer {display: flex;}
 
-.box-logo-footer{display: flex;}
+.box-logo-footer{margin-right: 146px;}
 
-.logo-footer{margin-right: 0;
-padding: 0;}
+.logo-footer {
+display: flex;
+font-weight: 700;
+font-size: 30px;
+line-height: 1;
+color: var(--brend-color);}
+
+.box-resource{margin-right: 130px;}
 
 .title-footer{font-weight: 500;
 font-size: 20px;
@@ -524,8 +529,11 @@ line-height: 1.50;}
 .link-text{line-height: 2.2;
 white-space: nowrap;}
 
+.box-legal-stuff{margin-right: 100px;}
+
 .text-knowing{margin-bottom: 30px;
 max-width: 280px;}
+
 
 .text-form{line-height: 1.7;
 color: var(--green-color);}

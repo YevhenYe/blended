@@ -37,7 +37,7 @@ width: 100%;}
 
 /* HEADER */
 
-.page-header{padding-bottom: 25px;}
+
 
 .box-header {display: flex;
 align-items: center;}
@@ -91,11 +91,10 @@ padding: 19px 0;}
 height: 42px;
 border: 1px solid #bcd0e5;
 border-radius: 4px;
-background: #ffffff;
+background-color: #ffffff;
 font-weight: 600;
 text-align: center;
-color: var(--brend-color);
-padding: 9px 23px;}
+color: var(--brend-color);}
 
 .btn-up{min-width: 113px;
 height: 42px;
@@ -103,10 +102,9 @@ border-radius: 4px;
 background-color:var(--green-color);
 font-weight: 600;
 color: var(--white-color);
-border: none;
-padding: 9px 24px;}
+border: none;}
 
-/* .btn{padding: 9px 24px;} */
+
 
 .btn:hover,
 .btn:focus{border-color: var(--active);
@@ -148,7 +146,6 @@ background-color:  var(--green-color);
 border: none;
 font-weight: 700;
 color:var(--white-color);
-padding: 17px 42px;
 border: none;}
 
 
@@ -158,7 +155,7 @@ display: inline-flex;
 font-weight: 600;
 text-decoration: underline;
 text-decoration-skip-ink: none;
-background: none;
+background-color: none;
 border: none;
 padding: 0;
 color: var(--green-color);
@@ -194,7 +191,6 @@ background-color: var(--green-color);
 border: none;
 font-weight: 700;
 color: var(--white-color);
-padding: 17px 42px;
 border: none;
 margin: 0 auto;}
 
@@ -280,7 +276,7 @@ fill: var(--white-color);
   box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
 border-radius: 50px;
 padding: 14px 20px;
-background: var(--white-color);
+background-color: var(--white-color);
 height: 50px;
 min-width: 281px;
 text-align: center;}
@@ -296,7 +292,6 @@ background-color: var(--green-color);
 border: none;
 font-weight: 700;
 color: var(--white-color);
-padding: 15px 30px;
 border: none;
 margin:50px auto 0;}
 
@@ -318,8 +313,10 @@ gap: 30px;}
 border: 1px solid #dedede;
 border-radius: 8px;
 }
+.box-text-strategies{margin-top: 24px;
+padding-bottom: 40px;}
 
-.img-strategies{padding-bottom: 24px;}
+
 
 .text-strategies{line-height: 1.7;
 margin-bottom: 12px;
@@ -327,7 +324,7 @@ padding-left: 24px;}
 
 .title-success{font-size: 24px;
 line-height: 1.7;
-padding-bottom: 40px;
+
 padding-left: 27px;}
 
 .title-green{color: var(--green-color);}
@@ -354,9 +351,9 @@ justify-content: center;}
 border: 1px solid #dedede;
   max-width: 322px;
 padding: 32px 72px;
-background: var(--white-color);}
+background-color: var(--white-color);}
 
-.item-second{background: var(--green-color);
+.item-second{background-color: var(--green-color);
 color: var(--white-color);}
 
 .title-card{font-size: 24px;
@@ -416,11 +413,11 @@ color:var(--white-color);
 border-radius: 8px;
 min-width: 139px;
 height: 44px;
-background: var(--green-color);
+background-color: var(--green-color);
 margin: 0 auto;
 border: none;}
 
-.btn-second{background: var(--white-color);
+.btn-second{background-color: var(--white-color);
 color: var(--green-color);}
 
 
@@ -480,16 +477,17 @@ color:var(--designer-color);}
 border-radius: 32px;
   width: 968px;
   height: 345px;
-background:var(--green-color);
+background-color:var(--green-color);
 margin: 0 auto;}
 
-.box-join{padding-left: 51px;}
+.box-join{padding-left: 51px;
+padding-top: 49px;}
 
 .title-compannies{font-weight: 600;
 font-size: 32px;
 line-height: 1.51;
 color:var(--white-color);
-padding-top: 49px;
+
 margin-bottom: 46px;}
 
 .box-compannies{display: flex;}
@@ -497,7 +495,7 @@ margin-bottom: 46px;}
 .btn-compannies{border-radius: 8px;
 min-width: 150px;
 height: 50px;
-background:var(--white-color);
+background-color:var(--white-color);
 font-weight: 600;
 font-size: 20px;
 color:var(--green-color);
@@ -544,9 +542,9 @@ border: none;
 font-weight: 700;
 text-align: center;
 color: var(--white-color);
-background: var(--green-color);
-padding: 8px 15px;
-margin-top: 25px;}
+background-color: var(--green-color);
+margin-top: 25px;
+border-radius: 4px;}
 
 .text-footer{line-height: 1.9;
 text-align: center;
@@ -575,7 +573,7 @@ justify-content: center;}
 
 /* section Why Choose Product? */
 
-.section-why{background: #f5f5f5;}
+.section-why{background-color: #f5f5f5;}
 
 .title-why{padding-top: 24px;
 margin-bottom: 50px;}
@@ -590,8 +588,12 @@ align-items: center;}
 .item-why{width: calc((100% - 60px) / 3);
 border: 1px solid #dedede;
 border-radius: 10px;
-width: 350px;
-height: 305px;}
+padding: 32px 38px;
+position: relative;}
+
+.title-organize{margin-left: -20px;
+  margin-right: -20px;
+  }
 
 .title-why-small{font-size: 24px;
 line-height: 1.4;
@@ -600,9 +602,7 @@ margin-bottom: 16px;}
 
 .text-why{line-height: 1.7;
 letter-spacing: 0.01em;
-text-align: center;
-padding-left: 38px;
-padding-right: 37px;}
+text-align: center;}
 
 
 /* section-how */
@@ -632,15 +632,14 @@ margin-bottom: 16px;}
 .text-review{line-height: 1.7;}
 
 .btn-how{border-radius: 8px;
-  width: 224px;
-  height: 44px;
+width: 224px;
+height: 44px;
 border: none;
-background:var(--green-color);
+background-color:var(--green-color);
 font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color:var(--white-color);
-padding: 11px 18px;
+font-weight: 600;
+font-size: 18px;
+color:var(--white-color);
 margin: 0 auto;}
 
 
@@ -648,7 +647,7 @@ margin: 0 auto;}
 
 
 .section-join{
-background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+background-image: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
 margin-top: 127px;
 padding-bottom: 138px;}
 
@@ -693,7 +692,7 @@ margin-bottom: 16px;}
 
 .text-pricing{margin-bottom: 50px;}
 
-.section-interprise{background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+.section-interprise{background-image: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
 padding-bottom: 294px;}
 
 .title-enterprise{font-size: 34px;
@@ -705,13 +704,13 @@ margin-bottom: 8px;}
 margin-bottom: 32px;}
 
 .btn-interprise{border-radius: 8px;
-  width: 224px;
-  height: 44px;
-background: var(--green-color);
+width: 224px;
+height: 44px;
+background-color: var(--green-color);
 font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: var(--white-color);
+font-weight: 600;
+font-size: 18px;
+color: var(--white-color);
 border: none;
 margin: 0 auto;}
 

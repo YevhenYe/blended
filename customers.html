@@ -41,7 +41,7 @@
               <a class="link link-nav active" href="./customers.html">Customers</a>
             </li>
             <li class="item-nav"><a class="link link-nav" href="./pricing.html">Pricing</a></li>
-            <li class="item-nav"><a class="link link-nav" href="">Resources</a></li>
+            <li class="item-nav"><a class="link link-nav" href="./resources.html">Resources</a></li>
           </ul>
         </nav>
         <ul class="list-sign">
@@ -75,6 +75,9 @@
           <h2 class="title-why title-customers">Why Choose Product?</h2>
           <ul class="list-why">
             <li class="item-why">
+              <svg class="icon-why" width="18" height="18">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
               <h3 class="title-why-small">Special Business</h3>
               <p class="text-why">
                 Product helps you see how many more days you need to work to reach your financial
@@ -82,6 +85,9 @@
               </p>
             </li>
             <li class="item-why">
+              <svg class="icon-why" width="18" height="18">
+                <use href="./images/icons.svg#icon-line"></use>
+              </svg>
               <h3 class="title-why-small">Instant Result</h3>
               <p class="text-why">
                 Product helps you see how many more days you need to work to reach your financial
@@ -89,6 +95,9 @@
               </p>
             </li>
             <li class="item-why">
+              <svg class="icon-why" width="18" height="18">
+                <use href="./images/icons.svg#icon-heart"></use>
+              </svg>
               <h3 class="title-why-small title-organize">Fastest way to organize</h3>
               <p class="text-why">
                 Product helps you see how many more days you need to work to reach your financial
@@ -152,6 +161,12 @@
             Join thousand of other who have<br />
             already received offers
           </h2>
+
+          <div class="box-1-join">
+            <div class="box-2-join"></div>
+            <div class="box-3-join"></div>
+          </div>
+
           <ul class="list-join">
             <li>
               <h3 class="title-join-small">Business</h3>
@@ -198,6 +213,26 @@
                 alt="logo of company"
               />Product</a
             >
+            <ul class="list-icon-footer">
+              <li class="item-icon-footer">
+                <a class="link link-icon-footer" href=""
+                  ><svg class="icon-footer" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use></svg
+                ></a>
+              </li>
+              <li class="item-icon-footer">
+                <a class="link link-icon-footer" href="">
+                  <svg class="icon-footer" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg
+                ></a>
+              </li>
+              <li class="item-icon-footer">
+                <a class="link link-icon-footer" href=""
+                  ><svg class="icon-footer" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg
+                ></a>
+              </li>
+            </ul>
           </div>
           <div class="box-resource">
             <h3 class="title-footer">Resource</h3>
@@ -218,8 +253,26 @@
           </div>
           <div class="box-knowing">
             <p class="title-footer text-knowing">knowing you're always on the best energy deal.</p>
-            <p class="text-form">Enter your phone number</p>
-            <button class="btn-footer btn" type="button">Sign up Now</button>
+
+            <form>
+              <label class="label-number" for="user-number"></label>
+              <div class="box-input-icon">
+                <input
+                  class="input-number"
+                  id="user-number"
+                  placeholder="Enter your phone number"
+                  name="user-number"
+                  type="tel"
+                  title="xxx-xxx-xx-xx"
+                  pattern="\d{10}"
+                  required
+                />
+                <svg class="icon-mobile" width="18" height="28">
+                  <use href="./images/icons.svg#icon-mobile"></use>
+                </svg>
+              </div>
+              <button class="btn-footer btn" type="submit">Sign up Now</button>
+            </form>
           </div>
         </div>
         <p class="text-footer">Made With Love By Figmaland All Right Reserved</p>

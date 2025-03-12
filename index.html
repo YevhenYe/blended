@@ -23,15 +23,14 @@
     <header class="page-header">
       <div class="container box-header">
         <nav class="box-logo">
-          <a class="logo" href="./index.html">
-            <img
-              class="img-logo"
-              width="39"
-              height="36"
-              src="./images/logo.png"
-              alt="logo of company"
-            />Product</a
-          >
+          <img
+            class="img-logo"
+            width="40"
+            height="36"
+            src="./images/logo.png"
+            alt="logo of company"
+          />
+          <a class="logo" href="./index.html"> Product</a>
 
           <ul class="list-nav">
             <li class="item-nav">
@@ -52,12 +51,17 @@
           <li class="item-sign"><button class="btn btn-in" type="button">Sign In</button></li>
           <li class="item-sign"><button class="btn btn-up" type="button">Sign Up</button></li>
         </ul>
+        <button class="btn-burger" type="button">
+          <svg class="icon-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <section class="section-hero">
         <div class="container box-hero">
-          <div class="box-t-hero">
+          <div class="box-text-hero">
             <h1 class="title-hero">Work at the speed of thought</h1>
             <p class="text-hero">
               Tools, tutorials, design and innovation experts, all in one place! The most intuitive
@@ -74,13 +78,20 @@
               </li>
             </ul>
           </div>
-          <img
-            class="img-hero"
-            width="610"
-            height="555"
-            src="./images/hero-img.png"
-            alt="Two women and two men using phones, standing around a giant phone"
-          />
+          <picture class="img-hero">
+            <source
+              srcset="./images/produkt/hero-desk@1.png 1x, ./images/produkt/hero-desk@2.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./images/produkt/hero-mobile@1.png 1x, ./images/produkt/hero-mobile@2.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/produkt/hero-mobile@1.png"
+              alt=" Two women and two men using phones, standing around a giant phone"
+            />
+          </picture>
         </div>
       </section>
       <section class="section-produkt">
@@ -91,29 +102,29 @@
               <svg class="icon-product arrow" width="18" height="18">
                 <use href="./images/icons.svg#icon-arrow"></use>
               </svg>
-              <h3 class="title-product">First click tests</h3>
-              <p class="text">While most people enjoy casino gambling,</p>
+              <h3 class="title-sub-sec">First click tests</h3>
+              <p class="text-main text-product">While most people enjoy casino gambling,</p>
             </li>
             <li class="item-produkt">
               <svg class="icon-product blue" width="18" height="18">
                 <use href="./images/icons.svg#icon-line"></use>
               </svg>
-              <h3 class="title-product">Design surveys</h3>
-              <p class="text">Sports betting, lottery and bingo playing for the fun</p>
+              <h3 class="title-sub-sec">Design surveys</h3>
+              <p class="text-main">Sports betting, lottery and bingo playing for the fun</p>
             </li>
             <li class="item-produkt">
               <svg class="icon-product heart" width="18" height="18">
                 <use href="./images/icons.svg#icon-heart"></use>
               </svg>
-              <h3 class="title-product">Preference tests</h3>
-              <p class="text">The Myspace page defines the individual.</p>
+              <h3 class="title-sub-sec">Preference tests</h3>
+              <p class="text-main">The Myspace page defines the individual.</p>
             </li>
             <li class="item-produkt">
               <svg class="icon-product untitled red" width="18" height="18">
                 <use href="./images/icons.svg#icon-untitled"></use>
               </svg>
-              <h3 class="title-product">Five second tests</h3>
-              <p class="text">Personal choices and the overall personality of the person.</p>
+              <h3 class="title-sub-sec">Five second tests</h3>
+              <p class="text-main">Personal choices and the overall personality of the person.</p>
             </li>
           </ul>
           <button class="btn-product btn" type="button">SIGN UP NOW</button>
@@ -122,50 +133,77 @@
       <section class="section-management">
         <div class="container box-management">
           <div class="box-title-management">
-            <p class="span">Effortless Validation for</p>
+            <p class="text-title">Effortless Validation for</p>
             <h2 class="title-main title-management">Management</h2>
-            <p class="text text-management">
+            <p class="text-main text-management">
               The Myspace page defines the individual, his or her characteristics, traits, personal
               choices and the overall personality of the person.
             </p>
             <ul class="list-group">
               <li class="item-manegament">
                 <h3 class="title-small">Accessory makers</h3>
-                <p class="text">
+                <p class="text-main">
                   While most people enjoy casino gambling, sports betting, lottery and bingo playing
                   for the fun
                 </p>
               </li>
               <li class="item-manegament">
                 <h3 class="title-small">Alterationists</h3>
-                <p class="text">
+                <p class="text-main">
                   If you are looking for a new way to promote your business that won’t cost you more
                   money,
                 </p>
               </li>
             </ul>
           </div>
-          <img
-            width="540"
-            height="500"
-            src="./images/management-img.png"
-            alt="Illustration of folders and documents representing information management"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/produkt/management-desk@1.png 1x,
+                ./images/produkt/management-desk@2.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/produkt/management-mobile@1.png 1x,
+                ./images/produkt/management-mobile@2.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/produkt/management-mobile@1.png"
+              alt="Illustration of folders and documents representing information management"
+            />
+          </picture>
         </div>
       </section>
       <section class="section-support">
         <div class="container box-support">
-          <img
-            class="img-support"
-            width="540"
-            height="500"
-            src="./images/support-img.png"
-            alt="Illustration of a laptop with a search bar and magnifying glass"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/produkt/support-desk@1.png 1x,
+                ./images/produkt/support-desk@2.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/produkt/support-mobile@1.png 1x,
+                ./images/produkt/support-mobile@2.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/produkt/support-mobile@1.png"
+              alt="Illustration of a laptop with a search bar and magnifying glass"
+            />
+          </picture>
           <div class="box-title-support">
-            <p class="span">Easier decision making for</p>
+            <p class="text-title">Easier decision making for</p>
             <h2 class="title-main title-management">Customer Support</h2>
-            <p class="text text-management">
+            <p class="text-main text-management">
               The Myspace page defines the individual, his or her characteristics, traits, personal
               choices and the overall personality of the person.
             </p>
@@ -174,13 +212,13 @@
                 <svg class="icon-support icon-support-1" width="17" height="12">
                   <use href="./images/icons.svg#icon-ok"></use>
                 </svg>
-                <p class="text">Never worry about overpaying for your energy again.</p>
+                <p class="text-main">Never worry about overpaying for your energy again.</p>
               </li>
               <li class="item-support">
                 <svg class="icon-support icon-support-2" width="17" height="12">
                   <use href="./images/icons.svg#icon-ok"></use>
                 </svg>
-                <p class="text">
+                <p class="text-main">
                   We will only switch you to energy companies that we trust and will treat you right
                 </p>
               </li>
@@ -188,7 +226,7 @@
                 <svg class="icon-support icon-support-3" width="17" height="12">
                   <use href="./images/icons.svg#icon-ok"></use>
                 </svg>
-                <p class="text">We track the markets daily and know where the savings are.</p>
+                <p class="text-main">We track the markets daily and know where the savings are.</p>
               </li>
             </ul>
           </div>
@@ -196,34 +234,50 @@
       </section>
       <section class="section-collaborative">
         <div class="container box-management">
-          <div class="box-title-management">
+          <div class="text-title">
             <p class="span">Optimisation for</p>
             <h2 class="title-main title-management">Collaborative</h2>
-            <p class="text text-management">
+            <p class="text-main text-management">
               Few would argue that, despite the advancements of feminism over the past three
               decades, women still face a double standard when it comes to their behavior.
             </p>
             <ul class="list-group">
               <li>
                 <h3 class="title-small">Accessory makers</h3>
-                <p class="text">
+                <p class="text-main">
                   While most people enjoy casino gambling, sports betting, lottery and bingo playing
                   for the fun
                 </p>
               </li>
               <li>
                 <h3 class="title-small">Alterationists</h3>
-                <p class="text">
+                <p class="text-main">
                   If you are looking for a new way to promote your business that won’t cost you more
                   money,
                 </p>
               </li>
             </ul>
           </div>
-          <img
-            src="./images/collaboration-img.png"
-            alt="Illustration of image folders and digital media management"
-          />
+          <picture>
+            <source
+              srcset="
+                ./images/produkt/collaborative-desk@1.png 1x,
+                ./images/produkt/collaborative-desk@2.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/produkt/collaborative-mobile@1.png 1x,
+                ./images/produkt/collaborative-mobile@2.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              src="./images/produkt/collaborative-mobile@1.png"
+              alt="Illustration of image folders and digital media management"
+            />
+          </picture>
         </div>
       </section>
       <section class="section-process">
@@ -265,7 +319,7 @@
           <button class="btn-process btn" type="button">Contact our expert</button>
         </div>
       </section>
-      <section class="section-strategies">
+      <!-- <section class="section-strategies">
         <div class="container">
           <h2 class="title-strategies">Contents Strategies</h2>
           <p class="text text-strategies">
@@ -307,8 +361,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-price">
+      </section> -->
+      <!-- <section class="section-price">
         <div class="container">
           <h2 class="title-price">Price Table</h2>
           <p class="text-price">We offer competitive price</p>
@@ -384,8 +438,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-clients">
+      </section> -->
+      <!-- <section class="section-clients">
         <div class="container">
           <h2 class="title-clients">What Clients Say</h2>
           <p class="text-clients">
@@ -503,8 +557,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-compannies">
+      </section> -->
+      <!-- <section class="section-compannies">
         <div class="container box-compannies">
           <div class="box-join">
             <h2 class="title-compannies">
@@ -517,9 +571,9 @@
             alt="Abstract data visualization with a colorful circular chart and a graph in a modern UI design."
           />
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="box-footer">
           <div class="box-logo-footer">
@@ -596,6 +650,6 @@
         </div>
         <p class="text-footer">Made With Love By Figmaland All Right Reserved</p>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>

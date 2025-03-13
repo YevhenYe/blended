@@ -110,21 +110,25 @@
                 <use href="./images/icons.svg#icon-line"></use>
               </svg>
               <h3 class="title-sub-sec">Design surveys</h3>
-              <p class="text-main">Sports betting, lottery and bingo playing for the fun</p>
+              <p class="text-main text-product">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
             </li>
             <li class="item-produkt">
               <svg class="icon-product heart" width="18" height="18">
                 <use href="./images/icons.svg#icon-heart"></use>
               </svg>
               <h3 class="title-sub-sec">Preference tests</h3>
-              <p class="text-main">The Myspace page defines the individual.</p>
+              <p class="text-main text-product">The Myspace page defines the individual.</p>
             </li>
             <li class="item-produkt">
               <svg class="icon-product untitled red" width="18" height="18">
                 <use href="./images/icons.svg#icon-untitled"></use>
               </svg>
               <h3 class="title-sub-sec">Five second tests</h3>
-              <p class="text-main">Personal choices and the overall personality of the person.</p>
+              <p class="text-main text-product">
+                Personal choices and the overall personality of the person.
+              </p>
             </li>
           </ul>
           <button class="btn-product btn" type="button">SIGN UP NOW</button>
@@ -207,7 +211,7 @@
               The Myspace page defines the individual, his or her characteristics, traits, personal
               choices and the overall personality of the person.
             </p>
-            <ul class="list-group">
+            <ul class="list-support">
               <li class="item-support">
                 <svg class="icon-support icon-support-1" width="17" height="12">
                   <use href="./images/icons.svg#icon-ok"></use>
@@ -234,8 +238,8 @@
       </section>
       <section class="section-collaborative">
         <div class="container box-management">
-          <div class="text-title">
-            <p class="span">Optimisation for</p>
+          <div class="box-title-management">
+            <p class="text-title">Optimisation for</p>
             <h2 class="title-main title-management">Collaborative</h2>
             <p class="text-main text-management">
               Few would argue that, despite the advancements of feminism over the past three
@@ -283,85 +287,194 @@
       <section class="section-process">
         <div class="container box-2">
           <h2 class="title-main title-process">Quick & Easy Process</h2>
-          <p class="text text-process">
+          <p class="text-secondary">
             Do you require some help for your project: Conception workshop, prototyping, marketing
             strategy, landing page, Ux/UI?
           </p>
+
           <ul class="list-process">
             <li class="item-process">
-              <img class="m-right" src="./images/avatar-one.jpg" alt="Avatar of a young woman" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/produkt/process-foto-1desk@1.jpg 1x,
+                    ./images/produkt/process-foto-1desk@2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/produkt/process-foto-1mobile@1.jpg 1x,
+                    ./images/produkt/process-foto-1mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/produkt/process-foto-1mobile@1.jpg"
+                  alt="Avatar of a young woman"
+                />
+              </picture>
               <p class="text-can">I can take care of your pitch</p>
             </li>
-
-            <li class="item-process reverse">
-              <img class="m-left" src="./images/avatar-two.jpg" alt="Avatar of a old woman" />
-              <p class="text-can">I can prototype your app</p>
-            </li>
-
-            <li class="item-process reverse">
-              <img
-                class="m-left"
-                src="./images/avatar-tree.jpg"
-                alt="Avatar of a young man with a camera"
-              />
-              <p class="text-can">I can take care of your pitch</p>
-            </li>
-
             <li class="item-process">
-              <img
-                class="m-right"
-                src="./images/avatar-four.jpg"
-                alt="Avatar of an elderly smiling man"
-              />
+              <p class="text-can">I can design you website</p>
+              <picture>
+                <source
+                  srcset="
+                    ./images/produkt/process-foto2desk@1.jpg 1x,
+                    ./images/produkt/process-foto2desk@2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/produkt/process-foto2mobile@1.jpg 1x,
+                    ./images/produkt/process-foto2mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/produkt/process-foto2mobile@1.jpg"
+                  alt="Avatar of an elderly smiling man"
+                />
+              </picture>
+            </li>
+            <li class="item-process">
+              <picture>
+                <source
+                  srcset="
+                    ./images/produkt/process-foto-3desk@1.jpg 1x,
+                    ./images/produkt/process-foto-3desk@2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/produkt/process-foto-3mobile@1.jpg 1x,
+                    ./images/produkt/process-foto-3mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/produkt/process-foto-3mobile@1.jpg"
+                  alt="Avatar of a young man with a camera"
+                />
+              </picture>
               <p class="text-can">I can help marketing strategy</p>
+            </li>
+            <li class="item-process">
+              <p class="text-can">I can prototype your app</p>
+              <picture>
+                <source
+                  srcset="
+                    ./images/produkt/process-foto-4desk@1.jpg 1x,
+                    ./images/produkt/process-foto-4desk@2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/produkt/process-foto-4mobile@1.jpg 1x,
+                    ./images/produkt/process-foto-4mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/produkt/process-foto-4mobile@1.jpg" alt="alt="Avatar of an old
+                woman" /> </picture
+              >"
             </li>
           </ul>
           <button class="btn-process btn" type="button">Contact our expert</button>
         </div>
       </section>
-      <!-- <section class="section-strategies">
+      <section class="section-strategies">
         <div class="container">
-          <h2 class="title-strategies">Contents Strategies</h2>
-          <p class="text text-strategies">
+          <h2 class="title-secondary title-strategies">Contents Strategies</h2>
+          <p class="text-main text-main-strategies">
             We focus on ergonomics and meeting you where you work. It's only a keystroke away.
           </p>
           <ul class="list-strategies">
             <li class="item-strategies">
-              <img
-                class="img-strategies"
-                src="./images/notebook.jpg"
-                alt="A man is working on a notebook"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/produkt/notebook-desk@1.jpg 1x,
+                    ./images/produkt/notebook-desk@2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/produkt/notebook-mobile@1.jpg 1x,
+                    ./images/produkt/notebook-mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/produkt/notebook-mobile@1.jpg"
+                  alt="A man is working on a notebook"
+                />
+              </picture>
               <div class="box-text-strategies">
-                <p class="text-strategies">By Wahid Ari | 03 March 2019</p>
-                <h3 class="title-success">Increasing Prosperity With Positive Thinking</h3>
+                <p class="text-sub">By <span class="wahid-air">Wahid Ari</span> | 03 March 2019</p>
+                <h3 class="title-sub">Increasing Prosperity With Positive Thinking</h3>
               </div>
             </li>
             <li class="item-strategies">
-              <img
-                class="img-strategies"
-                src="./images/panorama.jpg"
-                alt="People in an office with a city view"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/produkt/panorama-desk@1.jpg 1x,
+                    ./images/produkt/panorama-desk@2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/produkt/panorama-mobile@1.jpg 1x,
+                    ./images/produkt/panorama-mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/produkt/panorama-mobile@1.jpg"
+                  alt="People in an office with a city view"
+                />
+              </picture>
               <div class="box-text-strategies">
-                <p class="text-strategies">By Wahid Ari | 03 March 2019</p>
-                <h3 class="title-success title-green">Motivation Is The First Step To Success</h3>
+                <p class="text-sub">By <span class="wahid-air">Wahid Ari</span> | 03 March 2019</p>
+                <h3 class="title-sub title-sub-green">Motivation Is The First Step To Success</h3>
               </div>
             </li>
             <li class="item-strategies">
-              <img
-                class="img-strategies"
-                src="./images/building.jpg"
-                alt="Skyscrapers with a view of the sky"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/produkt/building-desk@1.jpg 1x,
+                    ./images/produkt/building-desk@2.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/produkt/building-mobile@1.jpg 1x,
+                    ./images/produkt/building-mobile@2.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/produkt/building-mobile@1.jpg"
+                  alt="Skyscrapers with a view of the sky"
+                />
+              </picture>
               <div class="box-text-strategies">
-                <p class="text-strategies">By Wahid Ari | 03 March 2019</p>
-                <h3 class="title-success">Success Steps For Your Personal Or Business</h3>
+                <p class="text-sub">By <span class="wahid-air">Wahid Ari</span> | 03 March 2019</p>
+                <h3 class="title-sub">Success Steps For Your Personal Or Business</h3>
               </div>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- <section class="section-price">
         <div class="container">
           <h2 class="title-price">Price Table</h2>

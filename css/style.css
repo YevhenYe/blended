@@ -214,6 +214,7 @@ box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);}
 .box-hero {
   display: flex;
   flex-direction: column-reverse;
+  align-items: center;
   gap: 11px;
 }
 .box-text-hero{text-align: center;}
@@ -262,14 +263,13 @@ align-items: center;
 @media screen and (min-width:768px){
   .list-hero{justify-content: center;
   }
-.img-hero {
-  margin: 0 auto 30px;}
 }
 
 
 @media screen and (min-width:1140px){
     .section-hero {
-        padding-top: 25;
+        padding-top: 25px;
+        padding-bottom: 100px;
       }
     .box-hero{flex-direction: row;
       gap: 35px;
@@ -282,7 +282,7 @@ align-items: center;
       max-width: 372px;
       font-size: 40px;
       margin-bottom: 18px;
-      padding-top: 112px;
+      
     }
     .text-hero {
       font-size: 18px;
@@ -302,8 +302,7 @@ align-items: center;
 
 
 .section-produkt {
-  padding-top: 16px;
-  padding-bottom: 38px;
+  padding-bottom: 100px;
 }
 .title-main{
     font-size: 32px;
@@ -372,7 +371,6 @@ align-items: center;
 @media screen and (min-width:1140px){
 .section-produkt {
     padding-bottom: 50px;
-    padding-top: 0;
   }
     .title-produkt {
       max-width: 535px;
@@ -380,6 +378,7 @@ align-items: center;
       margin-bottom: 50px;
     }
       .list-produkt {
+        text-align:start;
       margin-bottom: 50px;
       gap: 30px;
         }
@@ -400,7 +399,7 @@ align-items: center;
 /*  Management */
 
 .section-management{
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .box-management{
   display: flex;
@@ -408,6 +407,7 @@ align-items: center;
   align-items: center;
   gap: 50px;
 }
+ 
 .text-title {
   font-weight: 600;
   margin-bottom: 8px;
@@ -417,6 +417,7 @@ align-items: center;
 }
 .text-management{
   margin-bottom: 16px;}
+
     .list-group{
       display: flex;
       flex-direction: column;
@@ -432,10 +433,6 @@ align-items: center;
 
 
 @media screen and (min-width:1140px){
-  .section-management {
-      padding-bottom: 100px;
-      padding-top: 50px;
-    }
     .box-management{
       flex-direction: row;
       gap: 84px;
@@ -452,24 +449,29 @@ align-items: center;
         .list-group {
           gap: 25px;
         }
-               
+        
 }
 
 /* Customer Support */
 
 .section-support{
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .box-support{display: flex;
 flex-direction: column;
 align-items: center;
+text-align: start;
 gap: 50px;}
 
-/* .img-png-s{margin: 0 auto;} */
-
-.item-support {
+.list-support{
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.item-support {display: flex;
+ 
+  
 }
 .icon-support {
   border-radius: 14px;
@@ -492,11 +494,12 @@ gap: 50px;}
 .icon-support.icon-support-3 {
   background-color: #4d8dff;
 }
-
+@media screen and (min-width:768px){
+  .list-support{align-items: start;}
+}
 @media screen and (min-width:1140px){
 .section-support {
-    padding-bottom: 100px;
-    padding-top: 0;
+    padding-bottom: 111px;
   }
     .box-support{
       flex-direction: row;
@@ -510,12 +513,193 @@ gap: 50px;}
 
 /* section-collaborative */
 
+.section-collaborative{padding-bottom: 141px;}
 
 @media screen and (min-width:1140px){
   .section-collaborative {
-      padding-bottom: 150px;
+      padding-bottom: 138px;
     }
 }
 
 
 /* section-process */
+
+.section-process {
+  padding-bottom: 100px;
+}
+.title-process{
+  text-align: center;
+  margin-bottom: 8px;
+}
+.text-secondary{
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.list-process{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  gap: 32px;
+}
+.list-process li:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.list-process li:nth-child(even) {
+  align-self: flex-end;
+}
+
+.item-process{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+
+}
+.text-can{max-width: 180px;
+  color: #2f281e;
+text-align: center;
+font-weight: 500;
+}
+.btn-process {
+  border-radius: 4px;
+  min-width: 216px;
+  height: 53px;
+  background-color: var(--green-color);
+  font-weight: 700;
+  color: var(--white-color);
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width:768px){
+.text-can{
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  min-width: 281px;
+  padding: 14px 20px;
+} 
+.text-secondary {
+  max-width: 542px;
+ margin: 0 auto;
+    margin-bottom: 40px;
+}
+}
+@media screen and (min-width:1140px){
+.title-process {
+    margin-bottom: 25px;
+  }
+    .list-process{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+        .list-process li:nth-child(2) {
+          order: 3;
+        }
+        .list-process li:nth-child(3) {
+          order:4 ;
+        }
+        }
+
+                /* Contents Strategies */
+
+.section-strategies {
+  padding-bottom: 61px;
+}
+.title-secondary{
+  font-size: 34px;
+}
+.title-strategies{
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.text-main-strategies{
+  max-width: 349px;
+  margin: 0 auto 40px;
+}
+.list-strategies {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.item-strategies{display: flex;
+flex-direction: column;
+gap: 24px;
+}
+.box-text-strategies{display: flex;
+flex-direction: column;
+gap: 12px;}
+
+.text-sub{line-height: 1.75;}
+
+.wahid-air{
+  font-weight: 600;
+}
+
+.title-sub{
+  font-size: 24px;
+    line-height: 1.67;
+    max-width: 294px;
+}
+.title-sub-green{
+  color: var(--green-color);
+}
+
+@media screen and (min-width:768px){
+  .list-strategies{
+   align-items: center;
+  }
+}
+
+@media screen and (min-width:1140px){
+  .section-strategies {
+      padding-bottom: 171px;
+    }
+    .title-strategies {
+      margin-bottom: 10px;
+      text-align: start;
+    }
+        .text-main-strategies {
+          max-width: 465px;
+          margin: 0 0 40px;
+          text-align-last: start;
+}
+       
+.list-strategies{
+  flex-direction: row;
+  gap: 30px;
+}
+.item-strategies {
+  width: calc((100% - 57px) / 3);
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 40px;
+}
+.text-sub {
+  padding-left: 24px;
+}
+.title-sub{margin: 0 auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

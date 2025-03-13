@@ -686,20 +686,361 @@ gap: 12px;}
 }
 
 
+/* section-price */
+
+
+.section-price {
+  padding-bottom: 100px;
+}
+.title-main-price{
+  font-size: 34px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.text-sec-sub{
+  font-weight: 500;
+}
+.text-main-price{
+  text-align: center;
+  margin-bottom: 74px;
+}
+.list-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 38px;
+}
+.item-price-card {
+  border-radius: 8px;
+  border: 1px solid #dedede;
+  max-width: 322px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+.item-second {
+  background-color: var(--green-color);
+  color: var(--white-color);
+}
+
+.title-chouse{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.67;
+  margin-bottom: 8px;
+  }
+    .text-main-card {
+      font-size: 24px;
+      line-height: 2.5;
+      margin-bottom: 16px;
+    }
+.box-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.number {
+  font-size: 76px;
+  line-height: 1.32;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+
+.number-2 {
+  color: var(--white-color);
+}
+.dollar {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+
+.dollar-2 {
+  color: var(--white-color);
+}
+.list-price{display: flex;
+flex-direction: column;
+gap: 32px;
+text-align: center;
+  justify-content: center;
+}
+.text-month {
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.text-month-2 {
+  color: #e0e0e0;
+}
+.title-card-text {font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.37;
+  letter-spacing: 0.01em;
+}
+.text-white {
+  color: var(--white-color);
+}
+.btn-card {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--white-color);
+  border-radius: 8px;
+  min-width: 139px;
+  height: 44px;
+  background-color: var(--green-color);
+  margin: 0 auto;
+  transition: background-color var(--transition);
+}
+.btn-second {
+  background-color: var(--white-color);
+  color: var(--green-color);
+}
+
+@media screen and (min-width:1140px){
+  .title-price {
+      margin-bottom: 10px;
+    }
+  
+    .text-price {
+      margin-bottom: 40px;
+    }
+  .list-price{flex-direction: row;
+    gap: 72px;
+  }
+  .item-price-card{width: calc((100% - 64px) / 3);
+  padding: 32px 0;}
+    .text-main-card {
+      font-family: "Montserrat", sans-serif;
+    }
+        .text-month {
+          font-family: "Montserrat", sans-serif;
+        }
+        .title-card-text {
+          font-family: "Montserrat", sans-serif;
+        }
+.number {
+  font-family: "Montserrat",
+    sans-serif;
+}
+}
+
+
+/* section-clients */
+
+
+.section-clients {
+  padding-bottom: 100px;
+}
+
+
+.title-clients{
+  font-size: 34px;
+  line-height: 1.68;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 8px;
+  }
+.text-clients{
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  max-width: 323px;
+  margin: 0 auto 32px;
+  }
+  .list-clients{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+.item-clients{
+  border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 30px 35px;
+    max-width: 327px;
+}
+.icon-star {
+  fill: #f3cd03;
+  margin-bottom: 16px;
+}
+.text-clients-product{
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #32454f;
+  margin-bottom: 16px;
+}
+
+.item-disigner {
+  display: flex;
+  align-items: center;
+}
+
+.img-disigner {
+  margin-right: 14px;
+}
+
+.title-disigner {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+
+.text-disigner {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+  color: var(--designer-color);
+}
+
+@media screen and (min-width:1140px){
+  .title-clients {
+      font-size: 32px;
+      line-height: 1.75;
+      margin-bottom: 10px;
+    }
+  
+    .text-clients {
+      max-width: 537px;
+      margin-bottom: 40px;
+    }
+    .list-clients {
+      flex-direction: row;
+      gap: 64px;
+    }
+    .item-clients {
+      width: calc((100% - 128px) /3);
+  
+      padding: 30px 24px;
+    }
+}
+
+/* section-compannies */
+
+
+.section-compannies {
+  padding-bottom: 100px;
+  
+}
+
+.box-compannies{
+  border-radius: 32px;
+  background-color: var(--green-color);
+width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-compannies{
+  padding-top: 17px;
+  font-weight: 600;
+    font-size: 32px;
+    line-height: 1.51;
+    color: var(--white-color);
+    text-align: center;
+    max-width: 328px;
+    margin-bottom: 104px;
+}
+.btn-compannies {
+  border-radius: 8px;
+  min-width: 150px;
+  height: 50px;
+  background-color: var(--white-color);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--green-color);
+  margin: 0 auto 32px;
+}
+
+@media screen and (min-width:1140px){
+  .box-compannies{flex-direction: row;
+  width: 968px;
+margin: 0 auto;}
+.title-compannies {
+
+  margin-bottom: 46px;
+}
+}
 
 
 
+/* footer */
 
 
+.box-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-logo-footer{display: flex;
+flex-direction: column;
+gap: 25px;
+margin-bottom: 32px;}
 
 
+.logo-footer {
+  display: flex;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  color: var(--brend-color);
+  margin-bottom: 18px;
+}
+.list-icon-footer {
+  display: flex;
+  gap: 16px;
+}
+.link-icon-footer {
+  width: 40px;
+  height: 40px;
+  padding: 11px 9px;
+  background-color: #edfffc;
+  transition: background-color var(--transition);
+}
+
+.link-icon-footer:hover,
+.link-icon-footer:focus {
+  background-color: var(--active);
+}
 
 
+.link-icon-footer:hover .icon-footer,
+.link-icon-footer:focus .icon-footer {
+  stroke: var(--white-color);
+}
 
 
+.link-icon-footer {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 
+.icon-footer {
+  fill: transparent;
+  stroke: var(--green-color);
+  transition: stroke var(--transition);
+}
 
-
-
-
-   
+.box-resource{
+ }

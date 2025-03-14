@@ -55,7 +55,9 @@ img {
 @media screen and (min-width:768px) {
   .container {
     max-width: 768px;
+   
   }
+  
 }
 
 @media screen and (min-width:1140px){
@@ -707,6 +709,8 @@ gap: 12px;}
 .list-card-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
   margin-bottom: 38px;
 }
@@ -1453,3 +1457,194 @@ gap: 16px;}
             }
 }
 .section-compannies.section-com-customers{padding-bottom: 150px;}
+
+
+/* PRICING PAGE */
+
+
+.section-price.section-pricing{padding-top:50px;}
+
+@media screen and (min-width:1140px){
+  .section-price.section-pricing {
+      padding-bottom: 130px;
+    }
+}
+
+/* section-interprise */
+
+.section-interprise{
+  background-image: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+  padding-bottom: 100px;
+}
+.title-interprice{font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 47px;
+margin-bottom: 24px;}
+.title-interprice-secondary{
+  margin-bottom: 25px;
+  text-align: center;
+}
+.text-interprise {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.btn-interprise {
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  background-color: var(--green-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--white-color);
+  border: none;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:1140px){
+  .section-interprise {
+      padding-bottom: 314px;
+    }
+  .title-interprice{padding-top: 53px;
+  }
+    .title-interprice-secondary{font-size: 34px;
+    margin-bottom: 8px;
+    }      
+}
+
+
+/* section-alongside */
+
+
+.section-alongside {padding-bottom: 100px;}
+
+
+.title-along{margin-bottom: 33px;
+text-align: center;}
+
+.img-alongside{display: block;
+margin: 0 auto 32px;}
+
+.title-alongside {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.list-alongside{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-icon-interprise {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.box-icon-interprise-svg{border-radius: 100px;
+  display: flex;
+  justify-content: center;align-items: center;
+  width: 52px;
+    height: 50px;
+    
+background-color: #f4f5f7;}
+
+@media screen and (min-width:1140px){
+  .section-alongside {
+    padding-bottom: 0;
+  }
+  .title-along {
+      margin-bottom: 56px;
+    }
+        .box-alongside{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 60px;
+
+        }
+}
+
+
+/* section-question */
+
+
+.section-question {
+  padding-bottom: 100px;
+}
+.tile-asked{
+  margin-bottom: 16px;
+  text-align: center;
+}
+.text-guestion{
+  font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.icon-minus {
+  display: none;
+  position: absolute;
+  top: 0;
+  transition: transform var(--transition);
+}
+
+.icon-plus {
+  transition: transform var(--transition);
+
+}
+.box-guestion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-guestion {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 14px;
+  padding-bottom: 22px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: transform var(--transition);
+}
+
+details[open] .title-guestion {
+  border-bottom: none;
+
+}
+
+details[open] {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+
+
+details[open] .icon-plus {
+  opacity: 0;
+
+}
+
+details[open] .icon-minus {
+  display: block;
+
+}
+.text-askd {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width:1140px){
+  .tile-asked{padding-top: 6px;}
+    .section-question{padding-bottom: 150px;
+   }
+     .box-guestion{padding-left:50px ;}
+}

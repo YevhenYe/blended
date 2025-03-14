@@ -63,10 +63,12 @@
       </div>
     </header>
     <main>
-      <section class="section-price">
+      <section class="section-price section-pricing">
         <div class="container">
-          <h2 class="title-secondary title-main-price">Price Table</h2>
-          <p class="text-sec-sub text-main-price">We offer competitive price</p>
+          <h2 class="title-secondary title-main-price">Let’s get some real work done here.</h2>
+          <p class="text-sec-sub text-main-price">
+            Prodict is your perfect solution for working. Get started now for free
+          </p>
 
           <ul class="list-price">
             <li class="item-price-card">
@@ -144,8 +146,10 @@
       </section>
       <section class="section-interprise">
         <div class="container">
-          <h2 class="title-pricing">ENTERPRISE</h2>
-          <h3 class="title-enterprise">Are you interested in a custom-tailored plan?</h3>
+          <h2 class="title-interprice">ENTERPRISE</h2>
+          <h3 class="title-main title-interprice-secondary">
+            Are you interested in a custom-tailored plan?
+          </h3>
           <p class="text-interprise">
             Product is a set of advanced features for really large teams with projects.
           </p>
@@ -153,64 +157,80 @@
         </div>
       </section>
       <section class="section-alongside">
-        <h2 class="title-enterprise title-along">
-          Product is being used with great effects alongside:
-        </h2>
-        <div class="box-alongside">
-          <img
-            src="./images/amico.png"
-            width="528"
-            height="392"
-            alt="Illustration of all possible devices"
-          />
-          <ul class="list-alongside">
-            <li>
-              <div class="box-icon-interprise">
-                <div class="box-icon-interprise-svg">
-                  <svg class="icon-interprise" width="24" height="24">
-                    <use href="./images/icons.svg#icon-01"></use>
-                  </svg>
+        <div class="container">
+          <h2 class="title-main title-along">
+            Product is being used with great effects alongside:
+          </h2>
+
+          <div class="box-alongside">
+            <picture class="img-alongside">
+              <source
+                srcset="./images/pricing/smart-desk@1.png 1x, ./images/pricing/smart-desk@2.png 2x"
+                media="(min-width: 1140px)"
+              />
+              <source
+                srcset="
+                  ./images/pricing/smile-mobile@1.png 1x,
+                  ./images/pricing/smile-mobile@2.png 2x
+                "
+                media="(max-width: 1139px)"
+              />
+              <img
+                src="./images/pricing/smart-desk@1.png"
+                src="./images/pricing/smile-mobile@1.png"
+                alt="Smart desk and mobile version illustration"
+              />
+            </picture>
+
+            <ul class="list-alongside">
+              <li>
+                <div class="box-icon-interprise">
+                  <div class="box-icon-interprise-svg">
+                    <svg class="icon-interprise" width="24" height="24">
+                      <use href="./images/icons.svg#icon-01"></use>
+                    </svg>
+                  </div>
+                  <h3 class="title-alongside">Enterpreneur</h3>
                 </div>
-                <h3 class="title-alongside">Enterpreneur</h3>
-              </div>
-              <p class="text-alongside">
-                Product is a great way to help medium and samall enterprise owners achieve their
-                goals
-              </p>
-            </li>
-            <li>
-              <div class="box-icon-interprise">
-                <div class="box-icon-interprise-svg">
-                  <svg class="icon-interprise" width="24" height="24">
-                    <use href="./images/icons.svg#icon-04"></use>
-                  </svg>
+                <p class="text-sub">
+                  Product is a great way to help medium and samall enterprise owners achieve their
+                  goals
+                </p>
+              </li>
+              <li>
+                <div class="box-icon-interprise">
+                  <div class="box-icon-interprise-svg">
+                    <svg class="icon-interprise" width="24" height="24">
+                      <use href="./images/icons.svg#icon-04"></use>
+                    </svg>
+                  </div>
+                  <h3 class="title-alongside">Accountants</h3>
                 </div>
-                <h3 class="title-alongside">Accountants</h3>
-              </div>
-              <p class="text-alongside">
-                Whether you are working on contract with clients, or on other key accounting
-                documents, Product is for you
-              </p>
-            </li>
-            <li>
-              <div class="box-icon-interprise">
-                <div class="box-icon-interprise-svg">
-                  <svg class="icon-interprise" width="24" height="24">
-                    <use href="./images/icons.svg#icon-05"></use>
-                  </svg>
+                <p class="text-sub">
+                  Whether you are working on contract with clients, or on other key accounting
+                  documents, Product is for you
+                </p>
+              </li>
+              <li>
+                <div class="box-icon-interprise">
+                  <div class="box-icon-interprise-svg">
+                    <svg class="icon-interprise" width="24" height="24">
+                      <use href="./images/icons.svg#icon-05"></use>
+                    </svg>
+                  </div>
+                  <h3 class="title-alongside">Universities</h3>
                 </div>
-                <h3 class="title-alongside">Universities</h3>
-              </div>
-              <p class="text-alongside">
-                Organize university projects and have documents easily graded online with Product
-              </p>
-            </li>
-          </ul>
+                <p class="text-sub">
+                  Organize university projects and have documents easily graded online with Product
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="section-question">
         <div class="container">
-          <h2 class="title-enterprise tile-asked">Frequently asked question</h2>
+          <h2 class="title-main tile-asked">Frequently asked question</h2>
           <p class="text-guestion">Something is not clear? You need help? Check our FAQ section</p>
           <div class="box-guestion">
             <details>

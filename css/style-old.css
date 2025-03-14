@@ -1,87 +1,13 @@
 
-
-
-/* PRICING PAGE */
-
-
-
-.section-pricing{padding-top: 50px;
-padding-bottom: 130px;}
-
-.title-pricing{font-weight: 600;
-font-size: 24px;
-text-align: center;
-margin-bottom: 32px;}
-
-.title-pricing-big{font-size: 40px;
-text-align: center;
-margin-bottom: 16px;}
-
-.text-pricing{margin-bottom: 50px;}
-
-/* section-interprise */
-
-
-.section-interprise{
-  background-image: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
-padding-bottom: 51px;
-padding-top: 53px;}
-
-.title-enterprise{font-size: 34px;
-text-align: center;
-margin-bottom: 8px;}
-
-.text-interprise{font-size: 18px;
-  text-align: center;
-margin-bottom: 32px;}
-
-.btn-interprise{border-radius: 8px;
-width: 224px;
-height: 44px;
-background-color: var(--green-color);
-font-family: "Montserrat", sans-serif;
-font-weight: 600;
-font-size: 18px;
-color: var(--white-color);
-border: none;
-margin: 0 auto;}
-
-
-/* section-alongside */
-
-.section-alongside{padding-top: 314px;}
-
-.title-along{margin-bottom: 56px;}
-
-.box-icon-interprise{display: flex;
-gap: 14px;}
-
-.title-alongside{font-weight: 600;
-font-size: 24px;
-margin-bottom: 23px;}
-
-.text-alongside{line-height: 1.7;}
-
-.box-alongside{display: flex;
-justify-content: center;}
-
-.list-alongside{display: flex;
-  flex-direction: column;
-  gap: 32px;
-  max-width: 543px;
-margin-left: 60px;}
-
-
 /* section-question */
 
 
-.section-question{padding-bottom: 22px;
+{padding-bottom: 22px;
 padding-top: 6px;}
 
-.tile-asked{padding-top: 6px;}
 
-.text-guestion{font-size: 18px;
-text-align: center;
+
+.text-guestion{
 margin-bottom: 50px;}
 
 .box-guestion{display: flex;
@@ -89,52 +15,15 @@ flex-direction: column;
 gap: 16px;
 }
 
-.icon-minus{display: none;
-  position: absolute;
-  top: 0;
-  transition: transform var(--transition);
-}
-
-.icon-plus{transition: transform var(--transition);
-
-}
-
-.title-guestion{position: relative;
-  font-weight: 500;
-font-size: 18px;
-border-bottom: 1px solid #e7e7e7;
-margin-bottom: 14px;
-padding-bottom: 22px;
-list-style: none;
-display: flex;
-align-items: center;
-gap: 16px;
-cursor: pointer;
-  transition: transform var(--transition);
-}
-
-details[open] .title-guestion {
-  border-bottom: none;
-  
-}
-details[open]{border-bottom: 1px solid #e7e7e7;}
-
-
-
-details[open] .icon-plus {
-  opacity: 0;
- 
-}
-details[open] .icon-minus {
-  display: block;
- 
-}
 
 
 
 
 
-.text-askd{margin-bottom: 40px;}
+
+
+
+
 
 
 

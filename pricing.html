@@ -23,15 +23,18 @@
     <header class="page-header">
       <div class="container box-header">
         <nav class="box-logo">
-          <a class="logo" href="./index.html">
-            <img
-              class="img-logo"
-              width="39"
-              height="36"
-              src="./images/logo.png"
-              alt="logo of company"
-            />Product</a
-          >
+          <picture class="img-logo">
+            <source
+              srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="./images/logo-mobile@1.png" alt="logo of company" />
+          </picture>
+          <a class="logo" href="./index.html"> Product</a>
 
           <ul class="list-nav">
             <li class="item-nav">
@@ -52,20 +55,23 @@
           <li class="item-sign"><button class="btn btn-in" type="button">Sign In</button></li>
           <li class="item-sign"><button class="btn btn-up" type="button">Sign Up</button></li>
         </ul>
+        <button class="btn-burger" type="button">
+          <svg class="icon-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="section-pricing">
+      <section class="section-price">
         <div class="container">
-          <h2 class="title-pricing">PRICING</h2>
-          <h3 class="title-pricing-big">Let’s get some real work done here.</h3>
-          <p class="text-price text-pricing">
-            Prodict is your perfect solution for working. Get started now for free
-          </p>
+          <h2 class="title-secondary title-main-price">Price Table</h2>
+          <p class="text-sec-sub text-main-price">We offer competitive price</p>
+
           <ul class="list-price">
-            <li class="item-price">
-              <h3 class="title-card">Free</h3>
-              <p class="text-card">Brief price description</p>
+            <li class="item-price-card">
+              <h3 class="title-chouse">Free</h3>
+              <p class="text-main-card">Brief price description</p>
               <div class="box-card">
                 <h4 class="number">0</h4>
                 <div>
@@ -73,45 +79,46 @@
                   <p class="text-month">Per / month</p>
                 </div>
               </div>
-              <ul class="list-card">
-                <li>
-                  <h5 class="title-card-item">Only 2 Operators</h5>
+              <ul class="list-card-text">
+                <li class="item-card-text">
+                  <h5 class="title-card-text">Only 2 Operators</h5>
                 </li>
-                <li>
-                  <h5 class="title-card-item">Notifications</h5>
+                <li class="item-card-text">
+                  <h5 class="title-card-text">Notifications</h5>
                 </li>
-                <li>
-                  <h5 class="title-card-item">Landing Pages</h5>
+                <li class="item-card-text">
+                  <h5 class="title-card-text">Landing Pages</h5>
                 </li>
               </ul>
               <button class="btn-card btn" type="button">Order Now</button>
             </li>
-            <li class="item-price item-second">
-              <h3 class="title-card">Standard</h3>
-              <p class="text-card">Brief price description</p>
+
+            <li class="item-price-card item-second">
+              <h3 class="title-chouse">Free</h3>
+              <p class="text-main-card">Brief price description</p>
               <div class="box-card">
                 <h4 class="number number-2">5</h4>
                 <div>
-                  <p class="dollar-2 dollar">$</p>
-                  <p class="text-month text-month-2">Per / month</p>
+                  <p class="dollar">$</p>
+                  <p class="text-month">Per / month</p>
                 </div>
               </div>
-              <ul class="list-card">
-                <li>
-                  <h5 class="title-card-item text-white">5+ Operators</h5>
+              <ul class="list-card-text">
+                <li class="item-card-text">
+                  <h5 class="title-card-text">5+ Operators</h5>
                 </li>
-                <li>
-                  <h5 class="title-card-item text-white">Notifications</h5>
+                <li class="item-card-text">
+                  <h5 class="title-card-text">Notifications</h5>
                 </li>
-                <li>
-                  <h5 class="title-card-item text-white">Landing Pages</h5>
+                <li class="item-card-text">
+                  <h5 class="title-card-text">Landing Pages</h5>
                 </li>
               </ul>
-              <button class="btn-card btn btn-second" type="button">Order Now</button>
+              <button class="btn-card btn" type="button">Order Now</button>
             </li>
-            <li class="item-price">
-              <h3 class="title-card">Premium</h3>
-              <p class="text-card">Brief price description</p>
+            <li class="item-price-card">
+              <h3 class="title-chouse">Premium</h3>
+              <p class="text-main-card">Brief price description</p>
               <div class="box-card">
                 <h4 class="number">10</h4>
                 <div>
@@ -119,15 +126,15 @@
                   <p class="text-month">Per / month</p>
                 </div>
               </div>
-              <ul class="list-card">
-                <li>
-                  <h5 class="title-card-item">10+ Operators</h5>
+              <ul class="list-card-text">
+                <li class="item-card-text">
+                  <h5 class="title-card-text">10+ Operators</h5>
                 </li>
-                <li>
-                  <h5 class="title-card-item">Notifications</h5>
+                <li class="item-card-text">
+                  <h5 class="title-card-text">Notifications</h5>
                 </li>
-                <li>
-                  <h5 class="title-card-item">Landing Pages</h5>
+                <li class="item-card-text">
+                  <h5 class="title-card-text">Landing Pages</h5>
                 </li>
               </ul>
               <button class="btn-card btn" type="button">Order Now</button>
@@ -274,18 +281,37 @@
           </div>
         </div>
       </section>
-      <section class="section-compannies-pricing">
-        <div class="container box-compannies">
-          <div class="box-join">
-            <h2 class="title-compannies">
-              Join 100 Compannies who boost their business with Product
-            </h2>
-            <button class="btn btn-compannies" type="button">Get This</button>
+      <section class="section-compannies">
+        <div class="container">
+          <div class="box-compannies">
+            <div class="box-join">
+              <h2 class="title-compannies">
+                Join 100 Compannies who boost their business with Product
+              </h2>
+              <button class="btn btn-compannies" type="button">Get This</button>
+            </div>
+            <picture>
+              <source
+                srcset="
+                  ./images/produkt/screen-desk@1.png 1x,
+                  ./images/produkt/screen-desk@2.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./images/produkt/screen-mobile@1.png 1x,
+                  ./images/produkt/screen-mobile@2.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./images/produkt/screen-mobile@1.png"
+                alt="Abstract data visualization with a colorful circular chart and a graph in a modern UI
+          design."
+              />
+            </picture>
           </div>
-          <img
-            src="./images/screen.png"
-            alt="Abstract data visualization with a colorful circular chart and a graph in a modern UI design."
-          />
         </div>
       </section>
     </main>
@@ -294,13 +320,18 @@
         <div class="box-footer">
           <div class="box-logo-footer">
             <a class="logo-footer" href=".//index.html">
-              <img
-                class="img-logo"
-                width="39"
-                height="36"
-                src="./images/logo.png"
-                alt="logo of company"
-              />Product</a
+              <picture class="img-logo">
+                <source
+                  srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/logo-mobile@1.png" alt="logo of company" />
+              </picture>
+              Product</a
             >
             <ul class="list-icon-footer">
               <li class="item-icon-footer">
@@ -323,23 +354,26 @@
               </li>
             </ul>
           </div>
-          <div class="box-resource">
-            <h3 class="title-footer">Resource</h3>
-            <ul>
-              <li><a class="link link-text" href="">About Us</a></li>
-              <li><a class="link link-text" href="">Blog</a></li>
-              <li><a class="link link-text" href="">Contact</a></li>
-              <li><a class="link link-text" href="">FAQ</a></li>
-            </ul>
-          </div>
-          <div class="box-legal-stuff">
-            <h3 class="title-footer">Legal Stuff</h3>
-            <ul>
-              <li><a class="link link-text" href="">Disclaimer</a></li>
-              <li><a class="link link-text" href="">Financing</a></li>
-              <li><a class="link link-text" href="">Privacy Policy</a></li>
-            </ul>
-          </div>
+          <ul class="list-footer">
+            <li>
+              <h3 class="title-footer">Resource</h3>
+              <ul class="list-text-footer">
+                <li><a class="link link-text" href="">About Us</a></li>
+                <li><a class="link link-text" href="">Blog</a></li>
+                <li><a class="link link-text" href="">Contact</a></li>
+                <li><a class="link link-text" href="">FAQ</a></li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="title-footer">Legal Stuff</h3>
+              <ul class="list-text-footer">
+                <li><a class="link link-text" href="">Disclaimer</a></li>
+                <li><a class="link link-text" href="">Financing</a></li>
+                <li><a class="link link-text" href="">Privacy Policy</a></li>
+              </ul>
+            </li>
+          </ul>
+
           <div class="box-knowing">
             <p class="title-footer text-knowing">knowing you're always on the best energy deal.</p>
 

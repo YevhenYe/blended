@@ -23,13 +23,17 @@
     <header class="page-header">
       <div class="container box-header">
         <nav class="box-logo">
-          <img
-            class="img-logo"
-            width="40"
-            height="36"
-            src="./images/logo.png"
-            alt="logo of company"
-          />
+          <picture class="img-logo">
+            <source
+              srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+              media="(max-width: 767px)"
+            />
+            <img src="./images/logo-mobile@1.png" alt="logo of company" />
+          </picture>
           <a class="logo" href="./index.html"> Product</a>
 
           <ul class="list-nav">
@@ -715,13 +719,18 @@
         <div class="box-footer">
           <div class="box-logo-footer">
             <a class="logo-footer" href=".//index.html">
-              <img
-                class="img-logo"
-                width="39"
-                height="36"
-                src="./images/logo.png"
-                alt="logo of company"
-              />Product</a
+              <picture class="img-logo">
+                <source
+                  srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/logo-mobile@1.png 1x, ./images/logo-mobile@2.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/logo-mobile@1.png" alt="logo of company" />
+              </picture>
+              Product</a
             >
             <ul class="list-icon-footer">
               <li class="item-icon-footer">
@@ -744,23 +753,26 @@
               </li>
             </ul>
           </div>
-          <div class="box-resource">
-            <h3 class="title-footer">Resource</h3>
-            <ul>
-              <li><a class="link link-text" href="">About Us</a></li>
-              <li><a class="link link-text" href="">Blog</a></li>
-              <li><a class="link link-text" href="">Contact</a></li>
-              <li><a class="link link-text" href="">FAQ</a></li>
-            </ul>
-          </div>
-          <div class="box-legal-stuff">
-            <h3 class="title-footer">Legal Stuff</h3>
-            <ul>
-              <li><a class="link link-text" href="">Disclaimer</a></li>
-              <li><a class="link link-text" href="">Financing</a></li>
-              <li><a class="link link-text" href="">Privacy Policy</a></li>
-            </ul>
-          </div>
+          <ul class="list-footer">
+            <li>
+              <h3 class="title-footer">Resource</h3>
+              <ul class="list-text-footer">
+                <li><a class="link link-text" href="">About Us</a></li>
+                <li><a class="link link-text" href="">Blog</a></li>
+                <li><a class="link link-text" href="">Contact</a></li>
+                <li><a class="link link-text" href="">FAQ</a></li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="title-footer">Legal Stuff</h3>
+              <ul class="list-text-footer">
+                <li><a class="link link-text" href="">Disclaimer</a></li>
+                <li><a class="link link-text" href="">Financing</a></li>
+                <li><a class="link link-text" href="">Privacy Policy</a></li>
+              </ul>
+            </li>
+          </ul>
+
           <div class="box-knowing">
             <p class="title-footer text-knowing">knowing you're always on the best energy deal.</p>
 

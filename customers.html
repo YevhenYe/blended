@@ -65,26 +65,55 @@
     <main>
       <section class="section-our-clients">
         <div class="container">
-          <h2 class="our-clients">Our Clients</h2>
+          <h2 class="title-our-clients">Our Clients</h2>
           <ul class="list-our-clients">
             <li class="item-our-clients">
-              <img src="./images/customers/Vector.png" alt="logo airbnb" />
+              <img
+                src="./images/customers/airbnb-logo@1.png"
+                srcset="
+                  ./images/customers/airbnb-logo@1.png 1x,
+                  ./images/customers/airbnb-logo@2.png 2x
+                "
+                alt="logo airbnb"
+              />
             </li>
             <li class="item-our-clients">
-              <img src="./images/customers/Google-Logo.png" alt="logo google" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/customers/google-logo@1.png 1x,
+                    ./images/customers/google-logo@2.png 2x
+                  "
+                />
+                <img src="./images/customers/google-logo@1.png" alt="logo google" />
+              </picture>
             </li>
             <li class="item-our-clients">
-              <img src="./images/customers/Microsoft-Logo.png" alt="logo microsoft" />
+              <img
+                src="./images/customers/microsoft-logo@1.png"
+                srcset="
+                  ./images/customers/microsoft-logo@1.png 1x,
+                  ./images/customers/microsoft-logo@2.png 2x
+                "
+                alt="logo microsoft"
+              />
             </li>
             <li class="item-our-clients">
-              <img src="./images/customers/FedEx-Logo.png" alt="logo fedex" />
+              <img
+                src="./images/customers/fedEx-logo@1.png"
+                srcset="
+                  ./images/customers/fedEx-logo@1.png 1x,
+                  ./images/customers/fedEx-logo@2.png 2x
+                "
+                alt="logo fedex"
+              />
             </li>
           </ul>
         </div>
       </section>
       <section class="section-why">
         <div class="container box-why">
-          <h2 class="title-why title-customers">Why Choose Product?</h2>
+          <h2 class="title-main title-customers">Why Choose Product?</h2>
           <ul class="list-why">
             <li class="item-why">
               <svg class="icon-why" width="18" height="18">
@@ -110,7 +139,7 @@
               <svg class="icon-why red" width="18" height="18">
                 <use href="./images/icons.svg#icon-heart"></use>
               </svg>
-              <h3 class="title-why-small title-organize">Fastest way to organize</h3>
+              <h3 class="title-why-small">Fastest way to organize</h3>
               <p class="text-why">
                 Product helps you see how many more days you need to work to reach your financial
                 goal for the month and year.
@@ -121,25 +150,29 @@
       </section>
       <section class="section-how">
         <div class="container">
-          <h2 class="title-customers title-how">How Product Work?</h2>
-          <ul>
+          <h2 class="title-main title-how">How Product Work?</h2>
+          <ul class="list-how">
             <li class="item-how">
-              <img src="./images/customers/mac1.png" alt="Laptop screen showing with statistics" />
-              <div class="box-how">
-                <p class="text-step">STEP 1</p>
-                <h3 class="title-review">Apply for a product</h3>
-                <p class="text-review">
-                  Completing our easy step-by-step application form gives you access to multiple
-                  business with multiple products. We analyse your business through our proprietary
-                  credit analysis technology
-                </p>
-              </div>
-            </li>
-            <li class="item-how reverse">
-              <img
-                src="./images/customers/mac2.png"
-                alt="Laptop screen showing a dark-themed messaging dashboard with user avatars, conversation threads, and navigation menu on the left"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/customers/mac1-desk@1.png 1x,
+                    ./images/customers/mac1-desk@2.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/customers/mac1-mobile@1.png 1x,
+                    ./images/customers/mac1-mobile@2.png 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/customers/mac1-mobile@1.png"
+                  alt="Laptop screen showing a dark-themed messaging dashboard with user avatars, conversation threads, and navigation menu on the left"
+                />
+              </picture>
               <div class="box-how">
                 <p class="text-step">STEP 2</p>
                 <h3 class="title-review">Pay fully refundable</h3>
@@ -150,14 +183,58 @@
               </div>
             </li>
             <li class="item-how">
-              <img
-                src="./images/customers/mac3.png"
-                alt="Laptop screen displaying a blue analytics dashboard with a wavy graph, statistics, and labeled data point"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/customers/mac2-desk@1.png 1x,
+                    ./images/customers/mac2-desk@2.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/customers/mac2-mobile@1.png 1x,
+                    ./images/customers/mac2-mobile@2.png 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./images/customers/mac2-mobile@1.png"
+                  alt="Laptop screen showing a dark-themed messaging dashboard with user avatars, conversation threads, and navigation menu on the left"
+                />
+              </picture>
+              <div class="box-how">
+                <p class="text-step">STEP 2</p>
+                <h3 class="title-review">Pay fully refundable</h3>
+                <p class="text-sub">
+                  Product will contactting you instantly to receive payment of the Application Fee.
+                  if no offer of product is available, your fee will be fully refunded.
+                </p>
+              </div>
+            </li>
+            <li class="item-how">
+              <picture>
+                <source
+                  srcset="
+                    ./images/customers/mac3-desk@1.png 1x,
+                    ./images/customers/mac3-desk@2.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/customers/mac3-mobile@1.png 1x,
+                    ./images/customers/mac3-mobile@2.png 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img src="./images/customers/mac3-mobile@1.png" alt="alt="Laptop screen displaying a
+                blue analytics dashboard with a wavy graph, statistics, and labeled data point" />
+              </picture>
               <div class="box-how">
                 <p class="text-step">STEP 3</p>
                 <h3 class="title-review">Completion</h3>
-                <p class="text-review">
+                <p class="text-sub">
                   Product will continue to liase between borrower and manager to procees and
                   complete a quick and efficient settlement
                 </p>
@@ -169,36 +246,37 @@
       </section>
       <section class="section-join">
         <div class="container">
-          <h2 class="title-customers title-join">
-            Join thousand of other who have<br />
-            already received offers
+          <h2 class="title-main title-join">
+            Join thousand of other who have already received offers
           </h2>
 
           <ul class="list-join">
             <li class="item-join">
-              <div class="box-img-join">
-                <img
-                  class="img-join"
-                  width="150"
-                  height="150"
-                  src="./images/customers/box-red.jpg"
-                  alt="Two boxes with illustration"
-                />
-              </div>
+              <img
+                class="box-join-pic"
+                width="150"
+                height="150"
+                class="img-join"
+                src="./images/customers/box-red@1.png"
+                srcset="./images/customers/box-red@1.png 1x, ./images/customers/box-red@2.png 2x"
+                alt="Two boxes with illustration"
+              />
+
               <h3 class="title-join-small">Business</h3>
               <p class="text-loin">Cash Flow Asset Backed Receivables Finance</p>
               <h4 class="title-find">Find the best business product</h4>
             </li>
             <li class="item-join">
-              <div class="box-img-join">
-                <img
-                  class="img-join"
-                  width="150"
-                  height="150"
-                  src="./images/customers/box-blue.jpg"
-                  alt="Two boxes with illustration"
-                />
-              </div>
+              <img
+                class="box-join-pic"
+                class="img-join"
+                width="150"
+                height="150"
+                src="./images/customers/box-blue@1.png"
+                srcset="./images/customers/box-blue@1.png 1x, ./images/customers/box-blue@2.png 2x"
+                alt="Two boxes with illustration"
+              />
+
               <h3 class="title-join-small">Enterprise</h3>
               <p class="text-loin">Site Acquisition Bridge Development Financing</p>
 
@@ -207,7 +285,7 @@
           </ul>
         </div>
       </section>
-      <section class="section-compannies">
+      <section class="section-compannies section-com-customers">
         <div class="container">
           <div class="box-compannies">
             <div class="box-join">

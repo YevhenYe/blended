@@ -89,21 +89,33 @@
                 class="img-man-great img-man-great-1"
                 width="50"
                 height="50"
-                src="./images/resourcess/great-res1.jpg"
+                src="./images/resourcess/great-res1@1.jpg"
+                srcset="
+                  ./images/resourcess/great-res1@1.jpg 1x,
+                  ./images/resourcess/great-res1@2.jpg 2x
+                "
                 alt="Foto of a man"
               />
               <img
                 class="img-man-great img-man-great-2"
                 width="50"
                 height="50"
-                src="./images/resourcess/great-res-2.jpg"
+                src="./images/resourcess/great-res2@1.jpg"
+                srcset="
+                  ./images/resourcess/great-res2@1.jpg 1x,
+                  ./images/resourcess/great-res2@2.jpg 2x
+                "
                 alt="Foto of a man"
               />
               <img
                 class="img-man-great img-man-great-3"
                 width="50"
                 height="50"
-                src="./images/resourcess/great-res-3.jpg"
+                src="./images/resourcess/great-res3@1.jpg"
+                srcset="
+                  ./images/resourcess/great-res3@1.jpg 1x,
+                  ./images/resourcess/great-res3@2.jpg 2x
+                "
                 alt="Foto of a man"
               />
               <p class="text-great-img">
@@ -111,14 +123,23 @@
               </p>
             </div>
           </div>
-
-          <img
-            class="img-great-business"
-            width="541"
-            height="481"
-            src="./images/great-business.jpg"
-            alt=""
-          />
+          <picture class="img-alongside">
+            <source
+              srcset="
+                ./images/resourcess/mesenger-desk@1.png 1x,
+                ./images/resourcess/mesenger-desk@2.png 2x
+              "
+              media="(min-width: 1140px)"
+            />
+            <source
+              srcset="
+                ./images/resourcess/mesenger-mobile@1.png 1x,
+                ./images/resourcess/mesenger-mobile@2.png 2x
+              "
+              media="(max-width: 1139px)"
+            />
+            <img src="./images/resourcess/mesenger-mobile@1.png" alt=" illustration masanger" />
+          </picture>
         </div>
       </section>
       <!-- <section class="latest-stories">

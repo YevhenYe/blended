@@ -1648,3 +1648,52 @@ details[open] .icon-minus {
    }
      .box-guestion{padding-left:50px ;}
 }
+
+
+/* PAGE RESOURSE */
+
+/*section great-business */
+
+
+
+.great-business{padding-top: 50px;
+padding-bottom: 47px;
+}
+.title-great{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.49;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.text-great{
+  font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: -0.03em;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.input-resources{
+  width: 346px;
+    height: 66px;
+    border: 1px solid #eaeaea;
+      border-radius: 100px;
+      line-height: 1;
+        letter-spacing: -0.03em;
+        background-color: var(--white-color);
+        transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1),
+          border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+          /* padding-left: 54px; */
+          color: #22343d;
+}
+.input-resources::placeholder {
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #22343d;
+}
+/* .input-resources:hover,
+.input-resources:focus {
+  outline: 2px solid #4d8dff;
+  border: none;
+} */
